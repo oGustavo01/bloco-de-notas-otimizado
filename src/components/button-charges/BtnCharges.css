@@ -1,0 +1,26 @@
+.btn-changes {
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  text-align: left;
+  border: none;
+  border-bottom: solid 1px var(--tertiary-color);
+  border-right: solid 1px var(--tertiary-color);
+  width: auto !important;
+  height: 5px;
+  color: var(--color-fonts);
+  background: var(--primary-color);
+  text-decoration: none;
+  list-style: none;
+  }
+  
+  .btn-changes:hover {
+    border-bottom: solid 1px #2A7ABF;
+    border-right: none;
+    color: #2A7ABF;
+    transition: 0.3s;
+    background: var(--secundary-color)
+  }
+  

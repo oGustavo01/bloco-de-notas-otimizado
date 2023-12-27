@@ -1,0 +1,21 @@
+.search-bar {
+    outline: none;
+    color: white;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 5px 20px;
+    border: none;
+    background:var(--primary-color);
+    height: 40px;
+    width: 320px;
+  }
+  .search-bar:focus {
+    border-bottom: solid 1px #2A7ABF;
+    transition: 0.3s;
+  }
+  
+  .search-bar::placeholder {
+    padding-left: 2vh;
+  }
+  
